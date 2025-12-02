@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Daniel Carey",
+  "classifications": [ "Common", "Console" ],
+  "identity": "DanielCarey.AdventTemplate",
+  "name": "Daniel Carey Advent Application Template",
+  "shortName": "advent",
+  "sourceName": "DanielCarey.AdventTemplate",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "defaultValue": "DanielCarey.AdventTemplate",
+  "replaces": "DanielCarey.AdventTemplate"
+}

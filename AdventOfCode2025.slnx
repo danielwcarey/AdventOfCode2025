@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path="Add-DayNumber.ps1" />
+    <File Path="Install-Template.ps1" />
+    <File Path="LICENSE.txt" />
+    <File Path="README.md" />
+    <File Path="Run-Day.ps1" />
+    <File Path="Uninstall-Template.ps1" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/DailyTests/DailyTests.csproj" />
+    <Project Path="src/Shared/Shared.csproj" />
+  </Folder>
+</Solution>
