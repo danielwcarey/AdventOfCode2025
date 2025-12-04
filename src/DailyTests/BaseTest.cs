@@ -7,7 +7,6 @@ public abstract class BaseTest
 
     public void SetWorkingDirectory(string path)
     {
-        var day01Path = Path.Combine(TestSetup.RootPath ?? "", path);
         Directory.SetCurrentDirectory(
             Path.Combine(TestSetup.RootPath ?? "", path)
             );

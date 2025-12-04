@@ -13,6 +13,10 @@
 *.userosscache
 *.sln.docstates
 
+# Advent of Code, Data Files
+src/Data/**/Data1.txt
+src/Data/**/Data2.txt
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 

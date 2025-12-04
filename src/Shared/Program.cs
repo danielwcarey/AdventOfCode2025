@@ -1,8 +1,8 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 
 namespace DanielCarey.Shared;
+
 public static class Program
 {
     public static async Task RunAsync<TStar1, TStar2>()
@@ -10,13 +10,8 @@ public static class Program
         where TStar2 : class, IStar
     {
         HostApplicationBuilder builder = Host.CreateApplicationBuilder();
-        builder.Services
-            .AddLogging(config =>
-            {
-                config.AddConsole();
-                config.AddDebug();
-                
-            });
+
+        builder.Services.AddDynamicLogging();
 
         builder.Services.AddHostedService<StarHostedService>();
 

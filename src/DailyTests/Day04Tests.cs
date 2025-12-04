@@ -1,19 +1,14 @@
-param (
-    [string]$DayNumber
-)
-
-$text = @"
-using DanielCarey.Day$DayNumber;
+using DanielCarey.Day04;
 
 using Microsoft.Extensions.Logging;
 
 namespace DailyTests;
 
 [TestClass]
-public sealed class Day${DayNumber}Tests : BaseTest
+public sealed class Day04Tests : BaseTest
 {
-    private readonly string _star1DataPath = Path.Combine(TestSetup.RootPath, @"src\Data\Day$DayNumber\Data1.txt");
-    private readonly string _star2DataPath = Path.Combine(TestSetup.RootPath, @"src\Data\Day$DayNumber\Data2.txt");
+    private readonly string _star1DataPath = Path.Combine(TestSetup.RootPath, @"src\Data\Day04\Data1.txt");
+    private readonly string _star2DataPath = Path.Combine(TestSetup.RootPath, @"src\Data\Day04\Data2.txt");
 
     [TestMethod]
     public async Task Star1Test()
@@ -40,8 +35,3 @@ public sealed class Day${DayNumber}Tests : BaseTest
     }
 }
 
-"@
-
-$text | Out-File -FilePath "src\DailyTests\Day${DayNumber}Tests.cs"
-
-dotnet add src\DailyTests\DailyTests.csproj reference src\Day$DayNumber\Day$DayNumber.csproj

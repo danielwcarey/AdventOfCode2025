@@ -11,7 +11,7 @@ public class Star2(ILogger<Star2> logger, string dataPath = "Data2.txt") : IStar
 
     public ValueTask<BigInteger> RunAsync()
     {
-        logger.LogInformation($"RunAsync");
+        logger.LogInformation("RunAsync");
 
         // Extract Data
         var records =
@@ -23,7 +23,7 @@ public class Star2(ILogger<Star2> logger, string dataPath = "Data2.txt") : IStar
         // Process Data
 
         BigInteger answer = 0;
-        WriteLine($"Answer: {answer}");
+        logger.LogInformation("Answer: {answer}", answer);
         return ValueTask.FromResult(answer);
     }
 }

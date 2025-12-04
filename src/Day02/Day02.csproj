@@ -5,7 +5,7 @@
         <TargetFramework>net10.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <RootNamespace>DanielCarey.DanielCarey.AdventTemplate</RootNamespace>
+        <RootNamespace>DanielCarey.Day02</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
@@ -18,12 +18,12 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Content Include="..\Data\DanielCarey.AdventTemplate\Data1.txt" Link="Data1.txt">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Content>
-      <Content Include="..\Data\DanielCarey.AdventTemplate\Data2.txt" Link="Data2.txt">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Content>
+        <Content Include="..\Data\Day02\Data1.txt" Link="Data1.txt">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Include="..\Data\Day02\Data2.txt" Link="Data2.txt">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
     </ItemGroup>
 
     <ItemGroup>

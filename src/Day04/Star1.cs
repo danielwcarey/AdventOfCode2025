@@ -1,11 +1,11 @@
 using System.Numerics;
 
 // ReSharper disable once CheckNamespace
-namespace DanielCarey.DanielCarey.AdventTemplate;
+namespace DanielCarey.Day04;
 
 public class Star1(ILogger<Star1> logger, string dataPath = "Data1.txt") : IStar
 {
-    public string Name { get => "DanielCarey.AdventTemplate.Star1"; }
+    public string Name { get => "Day04.Star1"; }
 
     record Data(BigInteger Num1, BigInteger Num2);
 

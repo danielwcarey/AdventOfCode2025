@@ -1,6 +1,6 @@
-﻿# [AdventOfCode2024]( https://adventofcode.com/2024 )
+﻿# [AdventOfCode2025]( https://adventofcode.com/2025 )
 
-My Advent of Code 2024 workspace.
+My Advent of Code 2025 workspace.
 
 This project is **NOT** production-grade and should be treated as a playground. I normally participate
 in the Advent of Code using [LINQPad]( https://www.linqpad.net/ ) snippets but wanted to share 
@@ -19,9 +19,9 @@ scripts.
 .\Install-Template.ps1
 
 The following template packages will be installed:
-   S:\DanielCarey\AdventOfCode2024\src\AdventTemplate\Content
+   S:\DanielCarey\AdventOfCode2025\src\AdventTemplate\Content
 
-Success: S:\DanielCarey\AdventOfCode2024\src\AdventTemplate\Content installed the following templates:
+Success: S:\DanielCarey\AdventOfCode2025\src\AdventTemplate\Content installed the following templates:
 Template Name                             Short Name  Language  Tags
 ----------------------------------------  ----------  --------  --------------
 Daniel Carey Advent Application Template  advent      [C#]      Common/Console
@@ -31,7 +31,7 @@ Daniel Carey Advent Application Template  advent      [C#]      Common/Console
 ```powershell
 .\Uninstall-Template.ps1
 
-Success: S:\DanielCarey\AdventOfCode2024\src\AdventTemplate\Content was uninstalled.
+Success: S:\DanielCarey\AdventOfCode2025\src\AdventTemplate\Content was uninstalled.
 ```
 
 #### Using the template
@@ -72,8 +72,8 @@ The Shared library
 ```
 .
 ├── Add-DayNumber.ps1
-├── AdventOfCode2024.sln
-├── AdventOfCode2024.sln.DotSettings.user
+├── AdventOfCode2025.slx
+├── AdventOfCode2025.slx.DotSettings.user
 ├── Install-Template.ps1
 ├── LICENSE.txt
 ├── README.md

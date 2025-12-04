@@ -10,6 +10,11 @@
   </Folder>
   <Folder Name="/src/">
     <Project Path="src/DailyTests/DailyTests.csproj" />
+    <Project Path="src/Data/Data.msbuildproj" Type="13b669be-bb05-4ddf-9536-439f39a36129" />
+    <Project Path="src/Day01/Day01.csproj" />
+    <Project Path="src/Day02/Day02.csproj" />
+    <Project Path="src/Day03/Day03.csproj" />
+    <Project Path="src/Day04/Day04.csproj" />
     <Project Path="src/Shared/Shared.csproj" />
   </Folder>
 </Solution>

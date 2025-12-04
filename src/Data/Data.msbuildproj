@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.Build.NoTargets/3.0.0">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>GenericProject</RootNamespace>
+    <AssemblyName>GenericProject</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Add your references here -->
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Add your project dependencies here -->
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="**/*" Exclude="bin/**/*;obj/**/*;*.msbuildproj" />
+  </ItemGroup>
+
+</Project>
