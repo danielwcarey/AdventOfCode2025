@@ -19,7 +19,8 @@ public sealed class Day04Tests : BaseTest
 
         var result = await star.RunAsync();
 
-        Assert.IsTrue(result == -1);
+        // Too low: 1349
+        Assert.IsTrue(result == 1363);
     }
 
     [TestMethod]
@@ -31,7 +32,7 @@ public sealed class Day04Tests : BaseTest
 
         var result = await star.RunAsync();
 
-        Assert.IsTrue(result == -1);
+        Assert.IsTrue(result == 8184);
     }
 }
 
